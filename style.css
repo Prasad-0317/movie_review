@@ -21,7 +21,7 @@ nav div .navbar-brand{
 .nav-item{
     padding: 0px 5px;
 }
-form :placeholder-shown{
+form input{
     border-radius: 25px;
     margin-right: 125px;
 }
@@ -46,7 +46,7 @@ h3{
     color: white !important;
 }
 h4{
-    padding-left: 15px;
+    padding-left: 30px;
     color: white !important;
 }
 main{
@@ -56,10 +56,11 @@ main{
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
+    align-items: center;
 }
 .movie{
     width:200px;
-    margin: 1rem;
+    margin: 2rem;
     position: relative;
     overflow: hidden;
 }
